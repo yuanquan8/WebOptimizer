@@ -32,6 +32,7 @@ if(!is_in_empty_frame)
 
 chrome.storage.local.get({settings:config.settings,replace_words:config.replace_words},(values)=>
 {
+    console.log('chrome.storage.local.get(')
     if(is_in_empty_frame){
         return;
     }

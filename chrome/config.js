@@ -1,7 +1,7 @@
 
 var lang   = chrome.i18n.getMessage;
 var config = {
-    software_name:lang("appname") || "WebOptimizer",
+    software_name:lang("appname") || "PrintClientTP",
     settings:{
         unlock_text_select_restriction:true,
         unlock_copy_restriction:true,
